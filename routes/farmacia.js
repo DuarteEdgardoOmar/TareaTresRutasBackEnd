@@ -4,9 +4,11 @@ const {ver_productos_farmacia, crear_producto_farmacia} = require ('../controlle
 
 
 //ruta a listado de productos
+//http://localhost:8080/ver
 routerFarmacia.get('/ver', ver_productos_farmacia)
 
 //ruta a crear nuevo producto
+//http://localhost:8080/crear
 routerFarmacia.post('/crear', crear_producto_farmacia)
 
 
