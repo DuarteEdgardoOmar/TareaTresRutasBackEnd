@@ -8,7 +8,8 @@ const connect = async () => {
 
 
     try {
-        await mongoose.connect(process.env.MONGO_DB_URI)
+        
+        await mongoose.connect('mongodb+srv://duarteomar1975:miclave123456@cluster0.6wxoahb.mongodb.net/farmaciaDB')
 
         console.log('db on')
 
