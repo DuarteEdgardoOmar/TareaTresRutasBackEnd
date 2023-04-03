@@ -9,7 +9,7 @@ const connect = async () => {
 
     try {
         
-        await mongoose.connect('mongodb+srv://duarteomar1975:miclave123456@cluster0.6wxoahb.mongodb.net/farmaciaDB')
+        await mongoose.connect(process.env.MONGO_DB_URI)
 
         console.log('db on')
 
