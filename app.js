@@ -12,6 +12,4 @@ app.use('/', route_farmacia)
 //conexion con base de datos
 connect()
 
-
-
 module.exports = app
